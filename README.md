@@ -21,7 +21,7 @@ The guide explains how to open the data in Power BI and make your first chart.
 | Download the full dataset | [Alcedo_atthis.parquet](data/Alcedo_atthis.parquet) — select **Download raw file** |
 | See yearly totals in Excel | [Yearly counts](reports/by_year.csv) |
 | Understand the data | [Data notes and attribution](DATA_NOTES.md) |
-| Complete the data assessment | [Download the original assessment template](templates/Data%20Assessment%20Template.docx) |
+| Complete the data assessment | [Open the Google Docs template](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit) or [download the Word original](templates/Data%20Assessment%20Template.docx) |
 | Write my own analysis | [Optional Python instructions](docs/PYTHON.md) |
 
 ## What is in the dataset?
@@ -37,7 +37,9 @@ Keep attribution and licence fields when reusing the data. See [Data notes](DATA
 
 ## Data assessment template
 
-The [Data Assessment Template](templates/Data%20Assessment%20Template.docx) is provided unchanged. Open the file on GitHub and select **Download raw file**, or find it in the **templates** folder after downloading the project ZIP. Each group can work on its own copy.
+Open the [Google Docs assessment template](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit). Once the owner enables link sharing, choose **File → Make a copy** to create your group's working document. A Google account is required to save a copy.
+
+If Google Docs asks you to request access, public link sharing is still pending. The [original Word template](templates/Data%20Assessment%20Template.docx) is available to everyone: select **Download raw file**, or find it in the **templates** folder after downloading the project ZIP.
 
 ## Need help?
 
