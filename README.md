@@ -14,6 +14,8 @@ The guide explains how to open the data in Power BI and make your first chart.
 
 ## Choose what you need
 
+**Want to help with the assessment? [Choose and claim a task](docs/TASKS.md).** Open an issue, check whether someone has already claimed it, and comment **“I'll take this.”** A GitHub account is needed to comment; the repository owner confirms the assignment.
+
 | I want to… | Open this |
 | --- | --- |
 | Get started without coding | [Start here guide](START_HERE.html) — download and open locally |
@@ -22,6 +24,7 @@ The guide explains how to open the data in Power BI and make your first chart.
 | See yearly totals in Excel | [Yearly counts](reports/by_year.csv) |
 | Understand the data | [Data notes and attribution](DATA_NOTES.md) |
 | Complete the data assessment | [Open the Google Docs template](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit) or [download the Word original](templates/Data%20Assessment%20Template.docx) |
+| Claim a piece of the assessment | [Task list and how to take part](docs/TASKS.md) |
 | Write my own analysis | [Optional Python instructions](docs/PYTHON.md) |
 
 ## What is in the dataset?
