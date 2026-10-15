@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 *.parquet
+!data/Alcedo_atthis.parquet
 *.partial
 *.duckdb*
 outputs/

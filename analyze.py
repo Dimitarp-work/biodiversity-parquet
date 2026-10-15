@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parent
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--data', type=Path, default=ROOT.parent / 'Alcedo_atthis.parquet')
+    parser.add_argument('--data', type=Path, default=ROOT / 'data' / 'Alcedo_atthis.parquet')
     parser.add_argument('--sql', type=Path, default=ROOT / 'sql' / 'overview.sql')
     parser.add_argument('--output', type=Path, help='Optional CSV result file; refuses to overwrite')
     args = parser.parse_args()

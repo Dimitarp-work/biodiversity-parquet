@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kingfisher data — Start here</title>
+<style>
+body{font:18px/1.6 system-ui,sans-serif;color:#173042;background:#f3f6f8;margin:0}main{max-width:940px;margin:auto;padding:48px 24px}h1{font-size:44px;line-height:1.15}h2{margin-top:36px}a{color:#075e91}section,.stats{background:white;border:1px solid #d7e1e7;padding:24px;border-radius:14px;margin:24px 0}.stats{display:flex;gap:32px;flex-wrap:wrap}.stats strong{display:block;font-size:30px}.button{display:inline-block;background:#075e91;color:white;padding:12px 20px;border-radius:8px;text-decoration:none;margin:8px 10px 8px 0}li{margin:12px 0}small{color:#465d69}
+</style></head><body><main>
+<p>BIODIVERSITY DATA</p><h1>Explore the common kingfisher</h1>
+<p>Alcedo atthis occurrence records from the Netherlands. Use the included data in Power BI without writing code or installing Python.</p>
+<div class="stats"><div><strong>429,646</strong>occurrence records</div><div><strong>2010–2025</strong>recorded years</div><div><strong>12.3 MB</strong>Parquet file</div></div>
+<a class="button" href="reports/by_year.csv" download>Get yearly counts for Excel</a>
+<a class="button" href="data/Alcedo_atthis.parquet" download>Get the dataset</a>
+<section><h2>Open the data in Power BI</h2><ol>
+<li>Open <strong>Power BI Desktop</strong>. If needed, get it from the <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop">official Microsoft page</a>.</li>
+<li>Choose <strong>Home → Get data → More</strong>. Search for <strong>Parquet</strong> and click <strong>Connect</strong>.</li>
+<li>Open the <strong>data</strong> folder next to this page. Right-click <strong>Alcedo_atthis.parquet</strong> and choose <strong>Copy as path</strong> (on older Windows, hold Shift while right-clicking). Paste the location into Power BI and remove surrounding quotation marks.</li>
+<li>Choose <strong>Transform Data</strong>. Set <strong>year</strong> to <strong>Whole number</strong>. For <strong>decimalLatitude</strong> and <strong>decimalLongitude</strong>, use <strong>Change Type → Using Locale → Decimal number → English (United States)</strong>.</li>
+<li>Click <strong>Close &amp; Apply</strong>. Add a column chart. Drag <strong>year</strong> to the X-axis and <strong>gbifID</strong> to the Y-axis. Set the Y-axis aggregation to <strong>Count</strong>.</li>
+<li>Save your report. You can now filter years and explore the data.</li>
+</ol><p>These numbers count records. They do not estimate the kingfisher population. All records in this extract have country code NL.</p></section>
+<section><h2>What is included?</h2><ul><li><strong>data/Alcedo_atthis.parquet</strong> — the full species extract, with 50 columns.</li><li><strong>reports/by_year.csv</strong> — yearly totals for Excel.</li><li><strong>docs/POWER_BI.md</strong> — detailed Power BI instructions.</li><li><strong>docs/PYTHON.md</strong> — optional instructions for writing queries.</li></ul>
+<p>Leave identifiers as text. Dates can contain ranges, so leave <strong>eventDate</strong> as text at first. Source attribution and licence fields remain in every record.</p></section>
+<small>This page works offline. Links to Microsoft require internet access. Source and licensing details are in DATA_NOTES.md.</small>
+</main></body></html>

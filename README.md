@@ -1,76 +1,39 @@
-# Biodiversity Parquet starter
+# Kingfisher data — ready to explore
 
-Analyze the Alcedo atthis (common kingfisher) occurrence dataset with Python, SQL, or Power BI.
+**429,646 common kingfisher records from the Netherlands, ready for Power BI.**
 
-## Data
+You do not need to know Python, SQL, or Git. The full dataset is included.
 
-The existing file is `V:\Alcedo_atthis.parquet`: 429,646 records, 50 columns, species key `2475532`.
-It was extracted from `E:\DS AI\0046453-260226173443078.csv` on 2026-10-15.
-The source is tab-separated despite its extension. All Parquet columns are strings, with empty fields represented as null.
-Counts describe source occurrence records, not individual organisms or independently verified sightings. No deduplication or quality filtering has been applied.
-Keep the per-record `license`, `rightsHolder`, and source identifiers when sharing derived data.
+## Start here
 
-Data stays outside this Git repository. Parquet files, environments, generated outputs, and Power BI binaries are ignored.
+1. Click the green **Code** button above, then **Download ZIP**.
+2. Right-click the downloaded ZIP and choose **Extract All**.
+3. Open the extracted folder and double-click **START_HERE.html**. On Windows, **OPEN_ME.cmd** opens the same guide.
 
-## Run now on this computer
+The guide explains how to open the data in Power BI and make your first chart.
 
-A local Python environment has been prepared. In PowerShell:
+## Choose what you need
 
-```powershell
-cd V:\biodiversity-parquet
-.\.venv\Scripts\python.exe analyze.py
-.\.venv\Scripts\python.exe analyze.py --sql sql/by_year.sql
-.\.venv\Scripts\python.exe analyze.py --sql sql/by_country.sql
-.\.venv\Scripts\python.exe analyze.py --sql sql/preview.sql
-.\.venv\Scripts\python.exe analyze.py --sql sql/by_year.sql --output outputs/by_year.csv
-```
+| I want to… | Open this |
+| --- | --- |
+| Get started without coding | [Start here guide](START_HERE.html) — download and open locally |
+| Open the full dataset in Power BI | [Power BI instructions](docs/POWER_BI.md) |
+| Download the full dataset | [Alcedo_atthis.parquet](data/Alcedo_atthis.parquet) — select **Download raw file** |
+| See yearly totals in Excel | [Yearly counts](reports/by_year.csv) |
+| Understand the data | [Data notes and attribution](DATA_NOTES.md) |
+| Write my own analysis | [Optional Python instructions](docs/PYTHON.md) |
 
-No environment activation is required. Output commands refuse to overwrite existing files.
-Edit or add SQL files: the `records` view refers to the Parquet file. Console results are capped at 100 rows; CSV export streams all result rows.
-`TRY_CAST` in the examples turns invalid numbers into null. The overview reports invalid year values.
+## What is in the dataset?
 
-To use another file:
+- **Species:** Alcedo atthis, the common kingfisher.
+- **Records:** 429,646, from **2010–2025**.
+- **Location:** Netherlands (country code NL).
+- **File:** approximately 12.3 MB, with 50 columns.
 
-```powershell
-.\.venv\Scripts\python.exe analyze.py --data "V:\another_species.parquet"
-```
+Records include dates, coordinates, and source information. A record is an occurrence observation, not necessarily one individual bird. No deduplication or quality filtering has been applied. Yearly counts are not population estimates.
 
-## Set up on another computer
+Keep attribution and licence fields when reusing the data. See [Data notes](DATA_NOTES.md).
 
-Install Python 3.10 or newer, clone/copy the repository, and run:
+## Need help?
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-```
-
-Copy the Parquet file separately and pass its location with `--data`, or place it in the repository's parent folder.
-
-## Open in Power BI Desktop
-
-1. Select **Home > Get data > More**, search for **Parquet**, and select **Connect**.
-2. Enter `V:\Alcedo_atthis.parquet`, then choose **Transform Data**.
-3. Set `decimalLatitude` and `decimalLongitude` to **Decimal number**, using **English (United States)** locale because source decimals use a dot. Set `year`, `month`, and `day` to **Whole number**. Leave identifiers such as `gbifID` and `speciesKey` as text.
-4. Choose **Close & Apply**. Set the coordinate columns' data categories to **Latitude** and **Longitude** and their summarization to **Don't summarize**.
-
-Alternatively, use **Get data > Blank query > Advanced Editor** and paste `powerbi/Alcedo_atthis.pq`. Rename the query to `Alcedo_atthis`, then Close & Apply. This includes the numeric conversions. Review any conversion errors rather than removing those rows blindly.
-
-Keep `eventDate` as text initially: biodiversity dates may contain partial dates or date ranges.
-
-Create a measure after naming the table `Alcedo_atthis`:
-
-```dax
-Sightings = COUNTROWS('Alcedo_atthis')
-```
-
-Start with a card showing `Sightings`, a column chart with `year` on the axis and `Sightings` as its value, and a bar chart by `countryCode`. These are record counts, not population estimates.
-
-Power BI Service refresh of a local file requires an appropriate gateway and access to the same file location. A drive mapping visible only in your desktop session may not be visible to the gateway.
-
-Microsoft connector documentation: https://learn.microsoft.com/en-us/power-query/connectors/parquet
-
-## Git
-
-This is a local repository on branch `main`. No GitHub remote is configured.
-Use `git status`, `git diff`, and `git add` / `git commit` to track code changes.
-Do not commit the source CSV or datasets. The original source and exported Parquet remain unchanged.
+Read the troubleshooting section in the [Power BI instructions](docs/POWER_BI.md), or open an issue using this repository's **Issues** tab.
