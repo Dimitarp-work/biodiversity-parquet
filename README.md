@@ -21,6 +21,7 @@ The guide explains how to open the data in Power BI and make your first chart.
 | Download the full dataset | [Alcedo_atthis.parquet](data/Alcedo_atthis.parquet) — select **Download raw file** |
 | See yearly totals in Excel | [Yearly counts](reports/by_year.csv) |
 | Understand the data | [Data notes and attribution](DATA_NOTES.md) |
+| Complete the data assessment | [Download the original assessment template](templates/Data%20Assessment%20Template.docx) |
 | Write my own analysis | [Optional Python instructions](docs/PYTHON.md) |
 
 ## What is in the dataset?
@@ -33,6 +34,10 @@ The guide explains how to open the data in Power BI and make your first chart.
 Records include dates, coordinates, and source information. A record is an occurrence observation, not necessarily one individual bird. No deduplication or quality filtering has been applied. Yearly counts are not population estimates.
 
 Keep attribution and licence fields when reusing the data. See [Data notes](DATA_NOTES.md).
+
+## Data assessment template
+
+The [Data Assessment Template](templates/Data%20Assessment%20Template.docx) is provided unchanged. Open the file on GitHub and select **Download raw file**, or find it in the **templates** folder after downloading the project ZIP. Each group can work on its own copy.
 
 ## Need help?
 
