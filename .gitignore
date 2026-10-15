@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.parquet
+*.partial
+*.duckdb*
+outputs/
+.env
+*.pbix
+*.pbit
+
