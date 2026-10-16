@@ -12,6 +12,16 @@ Anyone with a GitHub account can volunteer. No coding is needed for several task
 
 Comments and assignees are the live claim record. Read them before starting to avoid duplicate work. If you can no longer do a task, say so in its comments.
 
+## Progress — 16 October 2026
+
+The shared [working assessment](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit) has roughly 70% of its substantive content completed. This is an estimate of document coverage, not a claim that 70% of tasks or assessment marks are complete.
+
+Completed: **T02, T03, T04, T05, T07 and T08**.
+
+Partially completed: **T06** (exploratory relationships) and **T10** (preparation plan).
+
+Still open: **T01, T09, T11 and T12**, plus the remaining decisions in T06/T10. Start by agreeing the project question and target. [Verified results and methods](../assessment/README.md) are available for reuse.
+
 ## Tasks
 
 | Task | Suggested skills | Read first |
@@ -31,8 +41,8 @@ Comments and assignees are the live claim record. Read them before starting to a
 
 ## Where to start
 
-T01, T02 and T03 can begin immediately. T07, T08, T11 and T12 suit contributors who prefer research, diagrams, writing or coordination. You can claim a dependent task now and prepare while earlier work is completed.
+T01 is the next priority; T02 and T03 are completed. T07, T08, T11 and T12 suit contributors who prefer research, diagrams, writing or coordination. You can claim a dependent task now and prepare while earlier work is completed.
 
-Use one shared **working copy** for the group, leaving the blank template unchanged. Group members can submit separate sections for the T12 owner to assemble. Do not invent results to fill gaps: document missing evidence or non-applicable questions.
+Use the linked Google Doc as the shared **working assessment**. The original blank Word template remains unchanged. Group members can submit separate sections for the T12 owner to assemble. Do not invent results to fill gaps: document missing evidence or non-applicable questions.
 
 The template contains overlapping classification and modelling questions. These tasks group related questions and cover every main section. Task dependencies indicate which results need to be agreed before finalising the work.

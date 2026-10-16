@@ -23,7 +23,7 @@ The guide explains how to open the data in Power BI and make your first chart.
 | Download the full dataset | [Alcedo_atthis.parquet](data/Alcedo_atthis.parquet) — select **Download raw file** |
 | See yearly totals in Excel | [Yearly counts](reports/by_year.csv) |
 | Understand the data | [Data notes and attribution](DATA_NOTES.md) |
-| Complete the data assessment | [Open the Google Docs template](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit) or [download the Word original](templates/Data%20Assessment%20Template.docx) |
+| Complete the data assessment | [Open the working Google assessment](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit) or [download the Word original](templates/Data%20Assessment%20Template.docx) |
 | Claim a piece of the assessment | [Task list and how to take part](docs/TASKS.md) |
 | Write my own analysis | [Optional Python instructions](docs/PYTHON.md) |
 
@@ -38,11 +38,11 @@ Records include dates, coordinates, and source information. A record is an occur
 
 Keep attribution and licence fields when reusing the data. See [Data notes](DATA_NOTES.md).
 
-## Data assessment template
+## Data assessment progress
 
-Open the [Google Docs assessment template](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit). Once the owner enables link sharing, choose **File → Make a copy** to create your group's working document. A Google account is required to save a copy.
+The [shared Google assessment](https://docs.google.com/document/d/1qa4yUP-Jt3bYsOItCxeLUsv9dTvqXczX0e2MH0tH-_g/edit) now contains the dataset analysis, variable tables, charts, privacy/reuse review and conceptual model. It is accessible to anyone with the link. Six related tasks are completed; see the [task status](docs/TASKS.md) for remaining work.
 
-If Google Docs asks you to request access, public link sharing is still pending. The [original Word template](templates/Data%20Assessment%20Template.docx) is available to everyone: select **Download raw file**, or find it in the **templates** folder after downloading the project ZIP.
+[Reproducible calculations and evidence](assessment/README.md) are included. The [original blank Word template](templates/Data%20Assessment%20Template.docx) remains available for other groups.
 
 ## Need help?
 

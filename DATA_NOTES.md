@@ -18,4 +18,6 @@ Original fields are preserved as text; empty fields are null. Coordinates and ye
 
 The data retains `datasetKey`, `occurrenceID`, `gbifID`, `license`, `rightsHolder`, and other attribution fields. Consult the per-record licence and contributing dataset when reusing records. This repository does not replace source attribution requirements or grant a new licence over third-party data.
 
-A download DOI/citation was not supplied with the CSV. Retrieve the original GBIF download citation before citing this extract in a publication.
+The original GBIF download is [doi:10.15468/dl.5kx93n](https://doi.org/10.15468/dl.5kx93n), created 18 March 2026. Its metadata reports 104,965,065 source records filtered to Netherlands, HUMAN_OBSERVATION, PRESENT, and 2010–2025. This repository contains the species extract, not the whole download.
+
+Verified licence totals: 420,734 CC BY-NC 4.0; 8,880 CC BY 4.0; 32 CC0 1.0. Most records require noncommercial reuse and attribution. Retain per-record source/licence information; see the [assessment evidence](assessment/README.md).
