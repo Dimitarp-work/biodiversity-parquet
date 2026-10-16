@@ -1,0 +1,138 @@
+{
+  "source_rows": 429646,
+  "included": 429619,
+  "excluded_unknown_month": 27,
+  "months": 192,
+  "zero_months": 0,
+  "min": 209,
+  "max": 6296,
+  "mean": 2237.5989583333335,
+  "median": 1979.5,
+  "q1": 998.25,
+  "q3": 3146.5,
+  "iqr": 2148.25,
+  "std": 1465.0897549829422,
+  "skew": 0.6658215367732793,
+  "lower_fence": -2224.125,
+  "upper_fence": 6368.875,
+  "outliers": [],
+  "min_months": [
+    "2012-06"
+  ],
+  "max_months": [
+    "2021-01"
+  ],
+  "covariance_time_count": 54850.42670157069,
+  "correlations": [
+    {
+      "variable": "time_index",
+      "reference": "sighting_count",
+      "n": 192,
+      "pearson": 0.673716421481922,
+      "spearman": 0.7128227060625991
+    },
+    {
+      "variable": "year",
+      "reference": "sighting_count",
+      "n": 192,
+      "pearson": 0.6642019021251705,
+      "spearman": 0.7035750593934479
+    },
+    {
+      "variable": "month_sin",
+      "reference": "sighting_count",
+      "n": 192,
+      "pearson": -0.24455299339790262,
+      "spearman": -0.2511047343311904
+    },
+    {
+      "variable": "month_cos",
+      "reference": "sighting_count",
+      "n": 192,
+      "pearson": 0.290457622051101,
+      "spearman": 0.2696616557562576
+    }
+  ],
+  "annual": [
+    {
+      "year": 2010,
+      "sighting_count": 6972,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2011,
+      "sighting_count": 7798,
+      "unknown_month_count": 1
+    },
+    {
+      "year": 2012,
+      "sighting_count": 7165,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2013,
+      "sighting_count": 10206,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2014,
+      "sighting_count": 21956,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2015,
+      "sighting_count": 33607,
+      "unknown_month_count": 1
+    },
+    {
+      "year": 2016,
+      "sighting_count": 37255,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2017,
+      "sighting_count": 29190,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2018,
+      "sighting_count": 17196,
+      "unknown_month_count": 1
+    },
+    {
+      "year": 2019,
+      "sighting_count": 22934,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2020,
+      "sighting_count": 41685,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2021,
+      "sighting_count": 25006,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2022,
+      "sighting_count": 31485,
+      "unknown_month_count": 2
+    },
+    {
+      "year": 2023,
+      "sighting_count": 39629,
+      "unknown_month_count": 3
+    },
+    {
+      "year": 2024,
+      "sighting_count": 47409,
+      "unknown_month_count": 1
+    },
+    {
+      "year": 2025,
+      "sighting_count": 50153,
+      "unknown_month_count": 0
+    }
+  ]
+}
