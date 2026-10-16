@@ -66,7 +66,6 @@
       1
     ]
   ],
-  "latitude_longitude_covariance": 0.09345879239005243,
   "frequencies": [
     {
       "variable": "gbifID",
@@ -787,92 +786,6 @@
       "lower_fence": 2005.5,
       "upper_fence": 2033.5,
       "outliers": 0
-    }
-  ],
-  "correlations": [
-    {
-      "variable": "individualCount",
-      "reference": "decimalLatitude",
-      "n": 428172,
-      "pearson": -0.023424202268025638,
-      "spearman": -0.014085260652532528
-    },
-    {
-      "variable": "decimalLatitude",
-      "reference": "decimalLatitude",
-      "n": 429646,
-      "pearson": 1.0,
-      "spearman": 1.0
-    },
-    {
-      "variable": "decimalLongitude",
-      "reference": "decimalLatitude",
-      "n": 429646,
-      "pearson": 0.22838315786758623,
-      "spearman": 0.18881518762766297
-    },
-    {
-      "variable": "coordinateUncertaintyInMeters",
-      "reference": "decimalLatitude",
-      "n": 410579,
-      "pearson": -0.029583317968190585,
-      "spearman": -0.03777545549331169
-    },
-    {
-      "variable": "coordinatePrecision",
-      "reference": "decimalLatitude",
-      "n": 604,
-      "pearson": -0.0019890056068343396,
-      "spearman": -0.004652584958181441
-    },
-    {
-      "variable": "elevation",
-      "reference": "decimalLatitude",
-      "n": 0,
-      "pearson": null,
-      "spearman": null
-    },
-    {
-      "variable": "elevationAccuracy",
-      "reference": "decimalLatitude",
-      "n": 0,
-      "pearson": null,
-      "spearman": null
-    },
-    {
-      "variable": "depth",
-      "reference": "decimalLatitude",
-      "n": 0,
-      "pearson": null,
-      "spearman": null
-    },
-    {
-      "variable": "depthAccuracy",
-      "reference": "decimalLatitude",
-      "n": 0,
-      "pearson": null,
-      "spearman": null
-    },
-    {
-      "variable": "day",
-      "reference": "decimalLatitude",
-      "n": 429599,
-      "pearson": 0.001849245307673917,
-      "spearman": 0.001634842379746708
-    },
-    {
-      "variable": "month",
-      "reference": "decimalLatitude",
-      "n": 429619,
-      "pearson": 0.020426314816606075,
-      "spearman": 0.01428928418407923
-    },
-    {
-      "variable": "year",
-      "reference": "decimalLatitude",
-      "n": 429646,
-      "pearson": 0.05294357526580115,
-      "spearman": 0.062489513872934346
     }
   ],
   "sha256": "ba304aeec8664fe8764fab5e174a078c75f5910dfbf27ed13d50fcd2b5edacd4"

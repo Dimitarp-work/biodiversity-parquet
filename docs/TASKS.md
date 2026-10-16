@@ -18,9 +18,9 @@ The shared [working assessment](https://docs.google.com/document/d/1qa4yUP-Jt3bY
 
 Completed: **T02, T03, T04, T05, T07 and T08**.
 
-Partially completed: **T06** (exploratory relationships) and **T10** (preparation plan).
+Updated for sighting counts: **T06** (monthly relationships), **T09** (sighting_count response), **T10** (monthly preparation) and **T11** (descriptive verification criteria) are drafted for final review.
 
-Still open: **T01, T09, T11 and T12**, plus the remaining decisions in T06/T10. Start by agreeing the project question and target. [Verified results and methods](../assessment/README.md) are available for reuse.
+Still open: **T01, T09, T11 and T12**, plus the remaining decisions in T06/T10. The current scope is recorded kingfisher sightings over time; confirm group roles and review the revised sections. [Verified results and methods](../assessment/README.md) are available for reuse.
 
 ## Tasks
 
@@ -46,3 +46,7 @@ T01 is the next priority; T02 and T03 are completed. T07, T08, T11 and T12 suit 
 Use the linked Google Doc as the shared **working assessment**. The original blank Word template remains unchanged. Group members can submit separate sections for the T12 owner to assemble. Do not invent results to fill gaps: document missing evidence or non-applicable questions.
 
 The template contains overlapping classification and modelling questions. These tasks group related questions and cover every main section. Task dependencies indicate which results need to be agreed before finalising the work.
+
+## Sighting-count revision
+
+The charts and statistics now use monthly sighting_count, not latitude. Loan examples were removed from the working Google Doc. There are 192 monthly counts from 429,619 dated records; 27 unknown-month records remain in annual totals. See [methods and outputs](../assessment/README.md).
