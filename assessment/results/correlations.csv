@@ -1,0 +1,13 @@
+﻿variable,reference,n,pearson,spearman
+individualCount,decimalLatitude,428172,-0.023424202268025638,-0.014085260652532528
+decimalLatitude,decimalLatitude,429646,1.0,1.0
+decimalLongitude,decimalLatitude,429646,0.22838315786758623,0.18881518762766297
+coordinateUncertaintyInMeters,decimalLatitude,410579,-0.029583317968190585,-0.03777545549331169
+coordinatePrecision,decimalLatitude,604,-0.0019890056068343396,-0.004652584958181441
+elevation,decimalLatitude,0,,
+elevationAccuracy,decimalLatitude,0,,
+depth,decimalLatitude,0,,
+depthAccuracy,decimalLatitude,0,,
+day,decimalLatitude,429599,0.001849245307673917,0.001634842379746708
+month,decimalLatitude,429619,0.020426314816606075,0.01428928418407923
+year,decimalLatitude,429646,0.05294357526580115,0.062489513872934346

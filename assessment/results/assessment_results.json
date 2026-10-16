@@ -1,0 +1,879 @@
+{
+  "rows": 429646,
+  "columns": 50,
+  "cells": 21482300,
+  "missing": 7265072,
+  "duplicates": 0,
+  "duplicate_gbifID": 0,
+  "dataset_count": 11,
+  "licenses": [
+    [
+      "CC_BY_NC_4_0",
+      420734
+    ],
+    [
+      "CC_BY_4_0",
+      8880
+    ],
+    [
+      "CC0_1_0",
+      32
+    ]
+  ],
+  "datasets": [
+    [
+      "8a863029-f435-446a-821e-275f4f641165",
+      416687
+    ],
+    [
+      "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      8336
+    ],
+    [
+      "6efaa343-80d2-4581-866a-eaa27bf5e352",
+      3067
+    ],
+    [
+      "bda96dc3-956c-43cc-bf0d-3567f948866d",
+      554
+    ],
+    [
+      "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      460
+    ],
+    [
+      "6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b",
+      283
+    ],
+    [
+      "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+      178
+    ],
+    [
+      "8487c83f-4022-44f3-a93d-9c3e1ba10997",
+      50
+    ],
+    [
+      "b1047888-ae52-4179-9dd5-5448ea342a24",
+      26
+    ],
+    [
+      "b84a3711-b4ca-4e4f-adac-80dfaea98d1c",
+      4
+    ],
+    [
+      "8c2282c5-2434-4ed0-92df-6896a0c246df",
+      1
+    ]
+  ],
+  "latitude_longitude_covariance": 0.09345879239005243,
+  "frequencies": [
+    {
+      "variable": "gbifID",
+      "missing": 0,
+      "unique": 429646,
+      "least_value": "1149505378",
+      "least_count": 1,
+      "least_ties": 429646,
+      "most_value": "1149505378",
+      "most_count": 1,
+      "most_ties": 429646
+    },
+    {
+      "variable": "datasetKey",
+      "missing": 0,
+      "unique": 11,
+      "least_value": "8c2282c5-2434-4ed0-92df-6896a0c246df",
+      "least_count": 1,
+      "least_ties": 1,
+      "most_value": "8a863029-f435-446a-821e-275f4f641165",
+      "most_count": 416687,
+      "most_ties": 1
+    },
+    {
+      "variable": "occurrenceID",
+      "missing": 178,
+      "unique": 429468,
+      "least_value": "003b4de1-a45e-488a-91cf-912dd87af8fb",
+      "least_count": 1,
+      "least_ties": 429468,
+      "most_value": "003b4de1-a45e-488a-91cf-912dd87af8fb",
+      "most_count": 1,
+      "most_ties": 429468
+    },
+    {
+      "variable": "kingdom",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "Animalia",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "Animalia",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "phylum",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "Chordata",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "Chordata",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "class",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "Aves",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "Aves",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "order",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "Coraciiformes",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "Coraciiformes",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "family",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "Alcedinidae",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "Alcedinidae",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "genus",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "Alcedo",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "Alcedo",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "species",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "Alcedo atthis",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "Alcedo atthis",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "infraspecificEpithet",
+      "missing": 429499,
+      "unique": 2,
+      "least_value": "atthis",
+      "least_count": 2,
+      "least_ties": 1,
+      "most_value": "ispida",
+      "most_count": 145,
+      "most_ties": 1
+    },
+    {
+      "variable": "taxonRank",
+      "missing": 0,
+      "unique": 2,
+      "least_value": "SUBSPECIES",
+      "least_count": 147,
+      "least_ties": 1,
+      "most_value": "SPECIES",
+      "most_count": 429499,
+      "most_ties": 1
+    },
+    {
+      "variable": "scientificName",
+      "missing": 0,
+      "unique": 3,
+      "least_value": "Alcedo atthis atthis (Linnaeus, 1758)",
+      "least_count": 2,
+      "least_ties": 1,
+      "most_value": "Alcedo atthis (Linnaeus, 1758)",
+      "most_count": 429499,
+      "most_ties": 1
+    },
+    {
+      "variable": "verbatimScientificName",
+      "missing": 0,
+      "unique": 4,
+      "least_value": "Alcedo atthis atthis",
+      "least_count": 2,
+      "least_ties": 1,
+      "most_value": "Alcedo atthis",
+      "most_count": 429445,
+      "most_ties": 1
+    },
+    {
+      "variable": "verbatimScientificNameAuthorship",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "countryCode",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "NL",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "NL",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "locality",
+      "missing": 4085,
+      "unique": 16044,
+      "least_value": "'s-Graveland - Landgoed Schoonoord",
+      "least_count": 1,
+      "least_ties": 4437,
+      "most_value": "Heel - WML plas (Langven)",
+      "most_count": 2212,
+      "most_ties": 1
+    },
+    {
+      "variable": "stateProvince",
+      "missing": 911,
+      "unique": 20,
+      "least_value": "Zeeuwse meren",
+      "least_count": 1,
+      "least_ties": 1,
+      "most_value": "Noord-Holland",
+      "most_count": 70059,
+      "most_ties": 1
+    },
+    {
+      "variable": "occurrenceStatus",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "PRESENT",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "PRESENT",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "individualCount",
+      "missing": 1474,
+      "unique": 13,
+      "least_value": "15",
+      "least_count": 1,
+      "least_ties": 2,
+      "most_value": "1",
+      "most_count": 384981,
+      "most_ties": 1
+    },
+    {
+      "variable": "publishingOrgKey",
+      "missing": 0,
+      "unique": 11,
+      "least_value": "a29a14ca-d257-4f31-acc0-d0b867ee723f",
+      "least_count": 1,
+      "least_ties": 1,
+      "most_value": "c8d737e0-2ff8-42e8-b8fc-6b805d26fc5f",
+      "most_count": 416687,
+      "most_ties": 1
+    },
+    {
+      "variable": "decimalLatitude",
+      "missing": 0,
+      "unique": 4413,
+      "least_value": "47.97523",
+      "least_count": 1,
+      "least_ties": 3179,
+      "most_value": "51.95",
+      "most_count": 34031,
+      "most_ties": 1
+    },
+    {
+      "variable": "decimalLongitude",
+      "missing": 0,
+      "unique": 4457,
+      "least_value": "3.31361",
+      "least_count": 1,
+      "least_ties": 3188,
+      "most_value": "4.75",
+      "most_count": 15947,
+      "most_ties": 1
+    },
+    {
+      "variable": "coordinateUncertaintyInMeters",
+      "missing": 19067,
+      "unique": 153,
+      "least_value": "101.0",
+      "least_count": 1,
+      "least_ties": 96,
+      "most_value": "5000.0",
+      "most_count": 406686,
+      "most_ties": 1
+    },
+    {
+      "variable": "coordinatePrecision",
+      "missing": 429042,
+      "unique": 2,
+      "least_value": "0.001",
+      "least_count": 50,
+      "least_ties": 1,
+      "most_value": "1.0E-5",
+      "most_count": 554,
+      "most_ties": 1
+    },
+    {
+      "variable": "elevation",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "elevationAccuracy",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "depth",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "depthAccuracy",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "eventDate",
+      "missing": 0,
+      "unique": 6755,
+      "least_value": "2010-04-08T00:00",
+      "least_count": 1,
+      "least_ties": 881,
+      "most_value": "2021-01-31",
+      "most_count": 433,
+      "most_ties": 1
+    },
+    {
+      "variable": "day",
+      "missing": 47,
+      "unique": 31,
+      "least_value": "31",
+      "least_count": 8260,
+      "least_ties": 1,
+      "most_value": "17",
+      "most_count": 14987,
+      "most_ties": 1
+    },
+    {
+      "variable": "month",
+      "missing": 27,
+      "unique": 12,
+      "least_value": "6",
+      "least_count": 18424,
+      "least_ties": 1,
+      "most_value": "9",
+      "most_count": 53548,
+      "most_ties": 1
+    },
+    {
+      "variable": "year",
+      "missing": 0,
+      "unique": 16,
+      "least_value": "2010",
+      "least_count": 6972,
+      "least_ties": 1,
+      "most_value": "2025",
+      "most_count": 50153,
+      "most_ties": 1
+    },
+    {
+      "variable": "taxonKey",
+      "missing": 0,
+      "unique": 3,
+      "least_value": "7191436",
+      "least_count": 2,
+      "least_ties": 1,
+      "most_value": "2475532",
+      "most_count": 429499,
+      "most_ties": 1
+    },
+    {
+      "variable": "speciesKey",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "2475532",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "2475532",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "basisOfRecord",
+      "missing": 0,
+      "unique": 1,
+      "least_value": "HUMAN_OBSERVATION",
+      "least_count": 429646,
+      "least_ties": 1,
+      "most_value": "HUMAN_OBSERVATION",
+      "most_count": 429646,
+      "most_ties": 1
+    },
+    {
+      "variable": "institutionCode",
+      "missing": 420622,
+      "unique": 4,
+      "least_value": "NMBT",
+      "least_count": 50,
+      "least_ties": 1,
+      "most_value": "CLO",
+      "most_count": 8336,
+      "most_ties": 1
+    },
+    {
+      "variable": "collectionCode",
+      "missing": 420642,
+      "unique": 8,
+      "least_value": "EBIRD_ATL_IL_PS",
+      "least_count": 1,
+      "least_ties": 3,
+      "most_value": "EBIRD",
+      "most_count": 8333,
+      "most_ties": 1
+    },
+    {
+      "variable": "catalogNumber",
+      "missing": 420592,
+      "unique": 9054,
+      "least_value": "-1020704152",
+      "least_count": 1,
+      "least_ties": 9054,
+      "most_value": "-1020704152",
+      "most_count": 1,
+      "most_ties": 9054
+    },
+    {
+      "variable": "recordNumber",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "identifiedBy",
+      "missing": 429137,
+      "unique": 196,
+      "least_value": "Aalbert Rebergen",
+      "least_count": 1,
+      "least_ties": 124,
+      "most_value": "thegreatdodo",
+      "most_count": 33,
+      "most_ties": 1
+    },
+    {
+      "variable": "dateIdentified",
+      "missing": 429172,
+      "unique": 461,
+      "least_value": "2010-01-01T00:00:00",
+      "least_count": 1,
+      "least_ties": 451,
+      "most_value": "2017-01-01T00:00:00",
+      "most_count": 4,
+      "most_ties": 1
+    },
+    {
+      "variable": "license",
+      "missing": 0,
+      "unique": 3,
+      "least_value": "CC0_1_0",
+      "least_count": 32,
+      "least_ties": 1,
+      "most_value": "CC_BY_NC_4_0",
+      "most_count": 420734,
+      "most_ties": 1
+    },
+    {
+      "variable": "rightsHolder",
+      "missing": 12423,
+      "unique": 213,
+      "least_value": "Aalbert Rebergen",
+      "least_count": 1,
+      "least_ties": 140,
+      "most_value": "Stichting Observation International",
+      "most_count": 416687,
+      "most_ties": 1
+    },
+    {
+      "variable": "recordedBy",
+      "missing": 3067,
+      "unique": 27073,
+      "least_value": "-1608965347",
+      "least_count": 1,
+      "least_ties": 11142,
+      "most_value": "User 4473",
+      "most_count": 2348,
+      "most_ties": 1
+    },
+    {
+      "variable": "typeStatus",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "establishmentMeans",
+      "missing": 429646,
+      "unique": 0,
+      "least_value": "",
+      "least_count": 0,
+      "least_ties": 0,
+      "most_value": "",
+      "most_count": 0,
+      "most_ties": 0
+    },
+    {
+      "variable": "lastInterpreted",
+      "missing": 0,
+      "unique": 372932,
+      "least_value": "2025-11-07T05:53:31.308Z",
+      "least_count": 1,
+      "least_ties": 325604,
+      "most_value": "2026-03-11T13:56:08.828Z",
+      "most_count": 9,
+      "most_ties": 1
+    },
+    {
+      "variable": "mediaType",
+      "missing": 388208,
+      "unique": 43,
+      "least_value": "Sound;Sound;StillImage",
+      "least_count": 1,
+      "least_ties": 17,
+      "most_value": "StillImage",
+      "most_count": 28405,
+      "most_ties": 1
+    },
+    {
+      "variable": "issue",
+      "missing": 419711,
+      "unique": 12,
+      "least_value": "COUNTRY_COORDINATE_MISMATCH;CONTINENT_DERIVED_FROM_COORDINATES",
+      "least_count": 1,
+      "least_ties": 2,
+      "most_value": "CONTINENT_DERIVED_FROM_COORDINATES;TAXON_CONCEPT_ID_NOT_FOUND",
+      "most_count": 4778,
+      "most_ties": 1
+    }
+  ],
+  "numeric_summary": [
+    {
+      "variable": "individualCount",
+      "n": 428172,
+      "missing": 1474,
+      "invalid": 0,
+      "min": 1.0,
+      "max": 21.0,
+      "median": 1.0,
+      "mean": 1.1172939846603702,
+      "q1": 1.0,
+      "q3": 1.0,
+      "iqr": 0.0,
+      "std": 0.39086274451777775,
+      "skew": 5.172635972826865,
+      "lower_fence": 1.0,
+      "upper_fence": 1.0,
+      "outliers": 43191
+    },
+    {
+      "variable": "decimalLatitude",
+      "n": 429646,
+      "missing": 0,
+      "invalid": 0,
+      "min": 47.97523,
+      "max": 53.501938,
+      "median": 52.05,
+      "mean": 52.0923381610023,
+      "q1": 51.75,
+      "q3": 52.4,
+      "iqr": 0.6499999999999986,
+      "std": 0.5392426845368614,
+      "skew": 0.18880571306199795,
+      "lower_fence": 50.775000000000006,
+      "upper_fence": 53.375,
+      "outliers": 5617
+    },
+    {
+      "variable": "decimalLongitude",
+      "n": 429646,
+      "missing": 0,
+      "invalid": 0,
+      "min": 3.31361,
+      "max": 7.240101,
+      "median": 5.25,
+      "mean": 5.308458331582279,
+      "q1": 4.75,
+      "q3": 5.9,
+      "iqr": 1.1500000000000004,
+      "std": 0.758877766825166,
+      "skew": 0.06567295239027615,
+      "lower_fence": 3.0249999999999995,
+      "upper_fence": 7.625000000000001,
+      "outliers": 0
+    },
+    {
+      "variable": "coordinateUncertaintyInMeters",
+      "n": 410579,
+      "missing": 19067,
+      "invalid": 0,
+      "min": 1.0,
+      "max": 37596.0,
+      "median": 5000.0,
+      "mean": 4960.809645890316,
+      "q1": 5000.0,
+      "q3": 5000.0,
+      "iqr": 0.0,
+      "std": 439.97461121268435,
+      "skew": -2.9675239499701536,
+      "lower_fence": 5000.0,
+      "upper_fence": 5000.0,
+      "outliers": 3893
+    },
+    {
+      "variable": "coordinatePrecision",
+      "n": 604,
+      "missing": 429042,
+      "invalid": 0,
+      "min": 1e-05,
+      "max": 0.001,
+      "median": 1e-05,
+      "mean": 9.195364238410597e-05,
+      "q1": 1e-05,
+      "q3": 1e-05,
+      "iqr": 0.0,
+      "std": 0.00027302219490138056,
+      "skew": 3.035786924215863,
+      "lower_fence": 1e-05,
+      "upper_fence": 1e-05,
+      "outliers": 50
+    },
+    {
+      "variable": "elevation",
+      "n": 0,
+      "missing": 429646,
+      "invalid": 0
+    },
+    {
+      "variable": "elevationAccuracy",
+      "n": 0,
+      "missing": 429646,
+      "invalid": 0
+    },
+    {
+      "variable": "depth",
+      "n": 0,
+      "missing": 429646,
+      "invalid": 0
+    },
+    {
+      "variable": "depthAccuracy",
+      "n": 0,
+      "missing": 429646,
+      "invalid": 0
+    },
+    {
+      "variable": "day",
+      "n": 429599,
+      "missing": 47,
+      "invalid": 0,
+      "min": 1.0,
+      "max": 31.0,
+      "median": 16.0,
+      "mean": 15.654233366465006,
+      "q1": 8.0,
+      "q3": 23.0,
+      "iqr": 15.0,
+      "std": 8.798083274180254,
+      "skew": 0.02187162849668747,
+      "lower_fence": -14.5,
+      "upper_fence": 45.5,
+      "outliers": 0
+    },
+    {
+      "variable": "month",
+      "n": 429619,
+      "missing": 27,
+      "invalid": 0,
+      "min": 1.0,
+      "max": 12.0,
+      "median": 8.0,
+      "mean": 6.8910569597713325,
+      "q1": 3.0,
+      "q3": 10.0,
+      "iqr": 7.0,
+      "std": 3.6190363119968514,
+      "skew": -0.269403336906778,
+      "lower_fence": -7.5,
+      "upper_fence": 20.5,
+      "outliers": 0
+    },
+    {
+      "variable": "year",
+      "n": 429646,
+      "missing": 0,
+      "invalid": 0,
+      "min": 2010.0,
+      "max": 2025.0,
+      "median": 2020.0,
+      "mean": 2019.4993855406544,
+      "q1": 2016.0,
+      "q3": 2023.0,
+      "iqr": 7.0,
+      "std": 4.116587905461025,
+      "skew": -0.34910147570464356,
+      "lower_fence": 2005.5,
+      "upper_fence": 2033.5,
+      "outliers": 0
+    }
+  ],
+  "correlations": [
+    {
+      "variable": "individualCount",
+      "reference": "decimalLatitude",
+      "n": 428172,
+      "pearson": -0.023424202268025638,
+      "spearman": -0.014085260652532528
+    },
+    {
+      "variable": "decimalLatitude",
+      "reference": "decimalLatitude",
+      "n": 429646,
+      "pearson": 1.0,
+      "spearman": 1.0
+    },
+    {
+      "variable": "decimalLongitude",
+      "reference": "decimalLatitude",
+      "n": 429646,
+      "pearson": 0.22838315786758623,
+      "spearman": 0.18881518762766297
+    },
+    {
+      "variable": "coordinateUncertaintyInMeters",
+      "reference": "decimalLatitude",
+      "n": 410579,
+      "pearson": -0.029583317968190585,
+      "spearman": -0.03777545549331169
+    },
+    {
+      "variable": "coordinatePrecision",
+      "reference": "decimalLatitude",
+      "n": 604,
+      "pearson": -0.0019890056068343396,
+      "spearman": -0.004652584958181441
+    },
+    {
+      "variable": "elevation",
+      "reference": "decimalLatitude",
+      "n": 0,
+      "pearson": null,
+      "spearman": null
+    },
+    {
+      "variable": "elevationAccuracy",
+      "reference": "decimalLatitude",
+      "n": 0,
+      "pearson": null,
+      "spearman": null
+    },
+    {
+      "variable": "depth",
+      "reference": "decimalLatitude",
+      "n": 0,
+      "pearson": null,
+      "spearman": null
+    },
+    {
+      "variable": "depthAccuracy",
+      "reference": "decimalLatitude",
+      "n": 0,
+      "pearson": null,
+      "spearman": null
+    },
+    {
+      "variable": "day",
+      "reference": "decimalLatitude",
+      "n": 429599,
+      "pearson": 0.001849245307673917,
+      "spearman": 0.001634842379746708
+    },
+    {
+      "variable": "month",
+      "reference": "decimalLatitude",
+      "n": 429619,
+      "pearson": 0.020426314816606075,
+      "spearman": 0.01428928418407923
+    },
+    {
+      "variable": "year",
+      "reference": "decimalLatitude",
+      "n": 429646,
+      "pearson": 0.05294357526580115,
+      "spearman": 0.062489513872934346
+    }
+  ],
+  "sha256": "ba304aeec8664fe8764fab5e174a078c75f5910dfbf27ed13d50fcd2b5edacd4"
+}

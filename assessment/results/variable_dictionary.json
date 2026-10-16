@@ -1,0 +1,452 @@
+[
+  [
+    "gbifID",
+    "GBIF occurrence record identifier.",
+    "Nominal",
+    "GBIF record",
+    "I",
+    "C",
+    "Positive integer identifier; not a measurement."
+  ],
+  [
+    "datasetKey",
+    "Identifier of the contributing dataset.",
+    "Nominal",
+    "Dataset",
+    "I",
+    "C",
+    "UUID; no numeric scale."
+  ],
+  [
+    "occurrenceID",
+    "Source identifier or URL for the occurrence.",
+    "Nominal",
+    "Occurrence record",
+    "I",
+    "C",
+    "Source-defined identifier."
+  ],
+  [
+    "kingdom",
+    "Kingdom of the interpreted taxon.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic vocabulary; Animalia in this extract."
+  ],
+  [
+    "phylum",
+    "Phylum of the interpreted taxon.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic name."
+  ],
+  [
+    "class",
+    "Class of the interpreted taxon.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic name."
+  ],
+  [
+    "order",
+    "Order of the interpreted taxon.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic name."
+  ],
+  [
+    "family",
+    "Family of the interpreted taxon.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic name."
+  ],
+  [
+    "genus",
+    "Genus of the interpreted taxon.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic name."
+  ],
+  [
+    "species",
+    "Interpreted species name.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Alcedo atthis by extraction filter."
+  ],
+  [
+    "infraspecificEpithet",
+    "Subspecies or other below-species epithet.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic name; may be absent."
+  ],
+  [
+    "taxonRank",
+    "Rank of the most specific identification.",
+    "Ordinal",
+    "Taxon",
+    "I",
+    "C",
+    "Ordered taxonomic ranks; SPECIES or SUBSPECIES observed."
+  ],
+  [
+    "scientificName",
+    "Interpreted scientific name, possibly including authorship.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Taxonomic name text."
+  ],
+  [
+    "verbatimScientificName",
+    "Scientific name as supplied by the source.",
+    "Nominal",
+    "Identification",
+    "I",
+    "O",
+    "Source text; preserve original spelling."
+  ],
+  [
+    "verbatimScientificNameAuthorship",
+    "Authorship supplied with the original name.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Entirely missing; intended text meaning."
+  ],
+  [
+    "countryCode",
+    "Country assigned to the occurrence location.",
+    "Nominal",
+    "Location",
+    "I",
+    "C",
+    "ISO country-code vocabulary; NL by source filter."
+  ],
+  [
+    "locality",
+    "Description of the occurrence location.",
+    "Nominal",
+    "Location",
+    "I",
+    "C",
+    "Free text; may include place identifiers."
+  ],
+  [
+    "stateProvince",
+    "Province or equivalent administrative subdivision.",
+    "Nominal",
+    "Location",
+    "I",
+    "C",
+    "Source text; do not assume consistent spelling."
+  ],
+  [
+    "occurrenceStatus",
+    "Reported presence or absence status.",
+    "Nominal",
+    "Observation event",
+    "I",
+    "O",
+    "Controlled terms; PRESENT by source filter."
+  ],
+  [
+    "individualCount",
+    "Reported number of individuals in an occurrence.",
+    "Discrete",
+    "Observation event",
+    "P",
+    "O",
+    "Non-negative integer; observed range is not the allowed domain."
+  ],
+  [
+    "publishingOrgKey",
+    "Identifier of the publishing organisation.",
+    "Nominal",
+    "Publisher",
+    "I",
+    "C",
+    "UUID."
+  ],
+  [
+    "decimalLatitude",
+    "North-south position in decimal degrees.",
+    "Continuous",
+    "Location",
+    "P",
+    "C",
+    "Allowed range -90 to 90 degrees."
+  ],
+  [
+    "decimalLongitude",
+    "East-west position in decimal degrees.",
+    "Continuous",
+    "Location",
+    "P",
+    "C",
+    "Allowed range -180 to 180 degrees."
+  ],
+  [
+    "coordinateUncertaintyInMeters",
+    "Radius expressing horizontal location uncertainty.",
+    "Continuous",
+    "Georeference",
+    "I",
+    "C",
+    "Non-negative distance in metres; zero should be reviewed against GBIF guidance."
+  ],
+  [
+    "coordinatePrecision",
+    "Decimal-degree precision recorded for coordinates.",
+    "Continuous",
+    "Georeference",
+    "I",
+    "C",
+    "Positive resolution where supplied; does not equal positional accuracy."
+  ],
+  [
+    "elevation",
+    "Elevation above sea level in metres.",
+    "Continuous",
+    "Location",
+    "P",
+    "C",
+    "Entirely missing; no dataset-specific permitted range established."
+  ],
+  [
+    "elevationAccuracy",
+    "Potential error associated with elevation.",
+    "Continuous",
+    "Georeference",
+    "I",
+    "C",
+    "Non-negative uncertainty; entirely missing."
+  ],
+  [
+    "depth",
+    "Depth below the reference surface in metres.",
+    "Continuous",
+    "Location",
+    "P",
+    "C",
+    "Entirely missing; verify source reference before imposing bounds."
+  ],
+  [
+    "depthAccuracy",
+    "Potential error associated with depth.",
+    "Continuous",
+    "Georeference",
+    "I",
+    "C",
+    "Non-negative uncertainty; entirely missing."
+  ],
+  [
+    "eventDate",
+    "Date, time or interval of the observation.",
+    "Date",
+    "Observation event",
+    "I",
+    "O",
+    "ISO-style temporal representation; intervals occur."
+  ],
+  [
+    "day",
+    "Day of month of the observation.",
+    "Discrete",
+    "Observation event",
+    "I",
+    "O",
+    "1 to 31, with calendar-dependent validity."
+  ],
+  [
+    "month",
+    "Month of the observation.",
+    "Discrete",
+    "Observation event",
+    "I",
+    "O",
+    "1 to 12; cyclic calendar variable."
+  ],
+  [
+    "year",
+    "Year of the observation.",
+    "Discrete",
+    "Observation event",
+    "I",
+    "O",
+    "2010 to 2025 by source selection, not a universal domain limit."
+  ],
+  [
+    "taxonKey",
+    "GBIF identifier of the interpreted taxon.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Positive integer identifier; can refer to subspecies."
+  ],
+  [
+    "speciesKey",
+    "GBIF identifier at species level.",
+    "Nominal",
+    "Taxon",
+    "I",
+    "C",
+    "Positive integer identifier; fixed to 2475532 in this extract."
+  ],
+  [
+    "basisOfRecord",
+    "Type of evidence behind the record.",
+    "Nominal",
+    "Occurrence record",
+    "I",
+    "C",
+    "Controlled vocabulary; HUMAN_OBSERVATION by source filter."
+  ],
+  [
+    "institutionCode",
+    "Code for the source institution.",
+    "Nominal",
+    "Institution",
+    "I",
+    "C",
+    "Source-defined code."
+  ],
+  [
+    "collectionCode",
+    "Code for the source collection.",
+    "Nominal",
+    "Collection",
+    "I",
+    "C",
+    "Source-defined code."
+  ],
+  [
+    "catalogNumber",
+    "Identifier within the source collection or dataset.",
+    "Nominal",
+    "Occurrence record",
+    "I",
+    "C",
+    "Identifier may contain letters and digits."
+  ],
+  [
+    "recordNumber",
+    "Collector or observer's record number.",
+    "Nominal",
+    "Occurrence record",
+    "I",
+    "C",
+    "Source-defined identifier; entirely missing."
+  ],
+  [
+    "identifiedBy",
+    "Person or people who identified the organism.",
+    "Nominal",
+    "Identifier person",
+    "I",
+    "C",
+    "Names or usernames; potentially identifying."
+  ],
+  [
+    "dateIdentified",
+    "Date or time of identification.",
+    "Date",
+    "Identification event",
+    "I",
+    "O",
+    "Temporal representation; mostly missing."
+  ],
+  [
+    "license",
+    "Reuse licence attached to the record.",
+    "Nominal",
+    "Dataset licence",
+    "I",
+    "C",
+    "Observed CC_BY_NC_4_0, CC_BY_4_0 and CC0_1_0."
+  ],
+  [
+    "rightsHolder",
+    "Person or organisation holding rights.",
+    "Nominal",
+    "Rights holder",
+    "I",
+    "C",
+    "Can contain a natural person's name."
+  ],
+  [
+    "recordedBy",
+    "Person or people who recorded the occurrence.",
+    "Nominal",
+    "Observer",
+    "I",
+    "C",
+    "Names or usernames; potentially identifying."
+  ],
+  [
+    "typeStatus",
+    "Nomenclatural type status, if applicable.",
+    "Nominal",
+    "Specimen designation",
+    "I",
+    "C",
+    "Controlled type terms; entirely missing here."
+  ],
+  [
+    "establishmentMeans",
+    "Establishment/origin category for the occurrence.",
+    "Nominal",
+    "Taxon occurrence",
+    "I",
+    "C",
+    "Controlled vocabulary; entirely missing."
+  ],
+  [
+    "lastInterpreted",
+    "Timestamp of GBIF interpretation.",
+    "Date",
+    "Processing event",
+    "I",
+    "O",
+    "Processing time, not observation time."
+  ],
+  [
+    "mediaType",
+    "Types of linked media; may contain several entries.",
+    "Nominal",
+    "Media resource",
+    "I",
+    "C",
+    "List-valued media categories; repeats may occur."
+  ],
+  [
+    "issue",
+    "GBIF processing flags, potentially several per record.",
+    "Nominal",
+    "Quality annotation",
+    "I",
+    "C",
+    "List of issue codes; null does not prove perfect quality."
+  ]
+]

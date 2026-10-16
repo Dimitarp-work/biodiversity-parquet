@@ -1,0 +1,51 @@
+﻿variable,missing,unique,least_value,least_count,least_ties,most_value,most_count,most_ties
+gbifID,0,429646,1149505378,1,429646,1149505378,1,429646
+datasetKey,0,11,8c2282c5-2434-4ed0-92df-6896a0c246df,1,1,8a863029-f435-446a-821e-275f4f641165,416687,1
+occurrenceID,178,429468,003b4de1-a45e-488a-91cf-912dd87af8fb,1,429468,003b4de1-a45e-488a-91cf-912dd87af8fb,1,429468
+kingdom,0,1,Animalia,429646,1,Animalia,429646,1
+phylum,0,1,Chordata,429646,1,Chordata,429646,1
+class,0,1,Aves,429646,1,Aves,429646,1
+order,0,1,Coraciiformes,429646,1,Coraciiformes,429646,1
+family,0,1,Alcedinidae,429646,1,Alcedinidae,429646,1
+genus,0,1,Alcedo,429646,1,Alcedo,429646,1
+species,0,1,Alcedo atthis,429646,1,Alcedo atthis,429646,1
+infraspecificEpithet,429499,2,atthis,2,1,ispida,145,1
+taxonRank,0,2,SUBSPECIES,147,1,SPECIES,429499,1
+scientificName,0,3,"Alcedo atthis atthis (Linnaeus, 1758)",2,1,"Alcedo atthis (Linnaeus, 1758)",429499,1
+verbatimScientificName,0,4,Alcedo atthis atthis,2,1,Alcedo atthis,429445,1
+verbatimScientificNameAuthorship,429646,0,,0,0,,0,0
+countryCode,0,1,NL,429646,1,NL,429646,1
+locality,4085,16044,'s-Graveland - Landgoed Schoonoord,1,4437,Heel - WML plas (Langven),2212,1
+stateProvince,911,20,Zeeuwse meren,1,1,Noord-Holland,70059,1
+occurrenceStatus,0,1,PRESENT,429646,1,PRESENT,429646,1
+individualCount,1474,13,15,1,2,1,384981,1
+publishingOrgKey,0,11,a29a14ca-d257-4f31-acc0-d0b867ee723f,1,1,c8d737e0-2ff8-42e8-b8fc-6b805d26fc5f,416687,1
+decimalLatitude,0,4413,47.97523,1,3179,51.95,34031,1
+decimalLongitude,0,4457,3.31361,1,3188,4.75,15947,1
+coordinateUncertaintyInMeters,19067,153,101.0,1,96,5000.0,406686,1
+coordinatePrecision,429042,2,0.001,50,1,1.0E-5,554,1
+elevation,429646,0,,0,0,,0,0
+elevationAccuracy,429646,0,,0,0,,0,0
+depth,429646,0,,0,0,,0,0
+depthAccuracy,429646,0,,0,0,,0,0
+eventDate,0,6755,2010-04-08T00:00,1,881,2021-01-31,433,1
+day,47,31,31,8260,1,17,14987,1
+month,27,12,6,18424,1,9,53548,1
+year,0,16,2010,6972,1,2025,50153,1
+taxonKey,0,3,7191436,2,1,2475532,429499,1
+speciesKey,0,1,2475532,429646,1,2475532,429646,1
+basisOfRecord,0,1,HUMAN_OBSERVATION,429646,1,HUMAN_OBSERVATION,429646,1
+institutionCode,420622,4,NMBT,50,1,CLO,8336,1
+collectionCode,420642,8,EBIRD_ATL_IL_PS,1,3,EBIRD,8333,1
+catalogNumber,420592,9054,-1020704152,1,9054,-1020704152,1,9054
+recordNumber,429646,0,,0,0,,0,0
+identifiedBy,429137,196,Aalbert Rebergen,1,124,thegreatdodo,33,1
+dateIdentified,429172,461,2010-01-01T00:00:00,1,451,2017-01-01T00:00:00,4,1
+license,0,3,CC0_1_0,32,1,CC_BY_NC_4_0,420734,1
+rightsHolder,12423,213,Aalbert Rebergen,1,140,Stichting Observation International,416687,1
+recordedBy,3067,27073,-1608965347,1,11142,User 4473,2348,1
+typeStatus,429646,0,,0,0,,0,0
+establishmentMeans,429646,0,,0,0,,0,0
+lastInterpreted,0,372932,2025-11-07T05:53:31.308Z,1,325604,2026-03-11T13:56:08.828Z,9,1
+mediaType,388208,43,Sound;Sound;StillImage,1,17,StillImage,28405,1
+issue,419711,12,COUNTRY_COORDINATE_MISMATCH;CONTINENT_DERIVED_FROM_COORDINATES,1,2,CONTINENT_DERIVED_FROM_COORDINATES;TAXON_CONCEPT_ID_NOT_FOUND,4778,1
