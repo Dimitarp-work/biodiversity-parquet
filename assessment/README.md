@@ -13,7 +13,7 @@ Each monthly count is COUNT(*) for a year/month; it is not SUM(individualCount) 
 
 Monthly count summary: minimum 209, maximum 6,296, mean 2,237.60, median 1,979.50, Q1 998.25, Q3 3,146.50, IQR 2,148.25, sample SD 1,465.09. No month falls outside the strict 1.5×IQR fences. Quantiles use linear interpolation; SD/covariance use n−1.
 
-Correlations use 192 monthly rows: time_index, year and cyclic month sine/cosine against sighting_count. Record-level coordinates are retained in the source dictionary and basic summaries but are not the response for this analysis. Correlation is descriptive; no causal effect, population growth or predictive accuracy is asserted.
+To compare calendar months, add up the recorded sightings for all 16 Januaries, all 16 Februaries and so on. See [sightings by calendar month](results/sightings_by_calendar_month.csv). These are totals across 2010–2025, without adjustment for month length or observer effort. The separate time-trend correlations use year and elapsed months; month names are labels.
 
 The source Parquet remains unchanged. Full source missingness, frequencies and numeric summaries remain available. NULLs are excluded from source summary calculations; frequency ties use the lexicographically first tied value.
 

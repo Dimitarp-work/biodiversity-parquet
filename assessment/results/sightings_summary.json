@@ -37,20 +37,6 @@
       "n": 192,
       "pearson": 0.6642019021251705,
       "spearman": 0.7035750593934479
-    },
-    {
-      "variable": "month_sin",
-      "reference": "sighting_count",
-      "n": 192,
-      "pearson": -0.24455299339790262,
-      "spearman": -0.2511047343311904
-    },
-    {
-      "variable": "month_cos",
-      "reference": "sighting_count",
-      "n": 192,
-      "pearson": 0.290457622051101,
-      "spearman": 0.2696616557562576
     }
   ],
   "annual": [
